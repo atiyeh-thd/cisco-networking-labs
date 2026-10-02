@@ -10,7 +10,6 @@ Multiple physical links between switches are combined into a single logical link
 * Port-channel
 * Link redundancy
 * Increased bandwidth
-* LACP
 * Switch configuration
 * Trunking
 
@@ -18,7 +17,7 @@ Multiple physical links between switches are combined into a single logical link
 The topology was designed and configured using Cisco Packet Tracer with multiple physical links between switches.
 
 ## Configuration
-EtherChannel was configured to combine multiple physical interfaces into a logical Port-channel interface. LACP was used for link aggregation where applicable.
+EtherChannel was configured to combine multiple physical interfaces into a logical Port-channel interface. 
 
 ## Testing
 The Port-channel configuration and status were verified using Cisco IOS commands. Connectivity between devices was also tested to ensure proper network operation.
@@ -27,7 +26,6 @@ The Port-channel configuration and status were verified using Cisco IOS commands
 * Cisco Packet Tracer
 * Cisco Switches
 * EtherChannel
-* LACP
 * Port-channel
 * VLAN
 * Trunking
